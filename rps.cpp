@@ -53,7 +53,7 @@ char choice() {
     } else if(entry == 'p') {
         cout << "You chose Paper" << endl;
     } else if(entry == 's') {
-        cout << "You chose Scissors";
+        cout << "You chose Scissors" << endl;
     } else {
         cout << "Something went wrong" << endl;
     }
@@ -82,9 +82,9 @@ int main() {
     if(p1 == 'r') {
         player1 = rock;
     } else if(p1 == 's') {
-        player1 = paper;
-    } else if (p1 == 'p') {
         player1 = scissors;
+    } else if (p1 == 'p') {
+        player1 = paper;
     }
 
     cout << "Player 2" << endl;
